@@ -1,38 +1,19 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-	<title>  Princesses Royal vs Star </title>
-	<script type="text/javascript" src="vendor/phaser.min.js"></script>
-	<script src="vendor/SpinePlugin.min.js"></script>
-	<script src="//bitent.com/lock_html5/initGame.js"></script>
-	<script src="//bitent.com/lock_html5/preloader.js"></script>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			background-color: #ffffff;
-		}
-		#theGame {
-			width: 100%;
-			height: 100%;
-			position: absolute;
-			overflow: hidden;
-			margin: 0 auto;
-			display: flex;
-		}
-	</style>
-</head>
-<body>
-	<div id='theGame'></div>
-	<script src="states/game.js"></script>
-	<script src="states/titlescreen.js"></script>
-	<script src="states/levelselect.js"></script>
-    <script src="states/endscreen.js"></script>
-	<script src="settingfile.js"></script>
-	<script src="app.js"></script>
-
-
-</body>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Chainitaire</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Chainitaire.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+      <div id="gameContainer" class="game-wrapper" style="width: 100%; height: 100%"></div>
+      
+  </body>
 </html>
