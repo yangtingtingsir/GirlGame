@@ -1,0 +1,169 @@
+{
+  "list": [
+    {
+      "id": "fue1",
+      "width": 870,
+      "radius": 260,
+      "cluePosition": "bottom",
+      "textAnchor": 0,
+      "showSkipButton": true,
+      "action": ["GameReady"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue1.message1"]
+    },
+    {
+      "id": "fue2",
+      "width": 750,
+      "radius": 135,
+      "cluePosition": "top",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["fue1Complete"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue2.message1"]
+    },
+    {
+      "id": "fue3",
+      "width": 700,
+      "rectangle": {"widthL": 500,"heightL": 350,"widthP": 410,"heightP": 300},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["RecipesOpened"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue3.message1"]
+    },
+    {
+      "id": "fue4",
+      "width": 700,
+      "rectangle": {"widthL": 230,"heightL": 235,"widthP": 235,"heightP": 235},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["JuiceCollectionOpened"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue4.message1"]
+    },
+    {
+      "id": "fue5",
+      "width": 700,
+      "radius": 460,
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["GamePlayOpened"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue5.message1"]
+    },
+    {
+      "id": "fue6",
+      "width": 700,
+      "rectangle": {"widthL": 230,"heightL": 235,"widthP": 235,"heightP": 235},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["PurchaseSecondLevel"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue6.message1"]
+    },
+    {
+      "id": "fue7",
+      "width": 700,
+      "rectangle": {"widthL": 230,"heightL": 235,"widthP": 235,"heightP": 235},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["RunSecondLevel"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue7.message1"]
+    },
+    {
+      "id": "fue8",
+      "width": 700,
+      "rectangle": {"widthL": 230,"heightL": 235,"widthP": 235,"heightP": 235},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["RunThirdLevel"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue8.message1"]
+    },
+    {
+      "id": "fue9",
+      "width": 700,
+      "rectangle": {"widthL": 230,"heightL": 235,"widthP": 235,"heightP": 235},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": true,
+      "action": ["GoToPiggyBank"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue9.message1"]
+    },
+    {
+      "id": "fue10",
+      "width": 700,
+      "rectangle": {"widthL": 160, "heightL": 210, "widthP": 160, "heightP": 210},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["TryToGetPiggyBank"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue10.message1"]
+    },
+    {
+      "id": "fue10_1",
+      "width": 700,
+      "radius": 0,
+      "cluePosition": "bottom",
+      "textAnchor": 0,
+      "showSkipButton": true,
+      "action": ["PiggyBankClear"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue10_1.message1"]
+    },
+    {
+      "id": "fue11",
+      "width": 700,
+      "rectangle": {"widthL": 140, "heightL": 130, "widthP": 130, "heightP": 140},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["RunReshuffle"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue11.message1"]
+    },
+    {
+      "id": "fue12",
+      "width": 700,
+      "rectangle": {"widthL": 140, "heightL": 130, "widthP": 130, "heightP": 140},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["RunHint"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue12.message1"]
+    },
+    {
+      "id": "fue13",
+      "width": 700,
+      "rectangle": {"widthL": 140, "heightL": 130, "widthP": 130, "heightP": 140},
+      "cluePosition": "bottom",
+      "textAnchor": 0.5,
+      "showSkipButton": false,
+      "action": ["RunFlashlights"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue13.message1"]
+    },
+    {
+      "id": "fue14",
+      "width": 700,
+      "radius": 0,
+      "cluePosition": "bottom",
+      "textAnchor": 0,
+      "showSkipButton": true,
+      "action": ["NotifyAboutRecipes"],
+      "arrows": [{"x": 0,"y": 40,"angle": 90}],
+      "messageKeys": ["fue14.message1"]
+    }
+  ]
+}
