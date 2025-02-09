@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Slot Toons</title>
+<title>Gems Slot</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 
 <meta name="generator" content="Scirra Construct">
-	<meta name="author" content="tegagame.com">
+	<meta name="author" content="tegagame">
 	<link rel="manifest" href="appmanifest.json">
 	<link rel="apple-touch-icon" sizes="129x129" href="icons/icon-128.png">
 	<link rel="apple-touch-icon" sizes="257x257" href="icons/icon-256.png">
@@ -25,13 +25,18 @@ if (location.protocol.substr(0, 4) === "file")
 	alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
 }
 </script>
-
+	<script src="spine-webgl.js"></script>
+	<script src="spine-draw.js"></script>
+	<script src="spine-gl-cache.js"></script>
+	<script src="spine-bone-control.js"></script>
+	<script src="spine-palette.js"></script>
 	<noscript>
 		<div id="notSupportedWrap">
 			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
 			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
 		</div>
 	</noscript>
+	<script src="scripts/modernjscheck.js"></script>
 	<script src="scripts/supportcheck.js"></script>
 	<script src="scripts/offlineclient.js" type="module"></script>
 	<script src="scripts/main.js" type="module"></script>
